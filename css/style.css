@@ -1,6 +1,9 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fff;
+  color: #2A2A2A;
+  font-size: 16px;
+  line-height: 1.4;
+  page-break-after: auto;
 }
 
 nav {
@@ -48,5 +51,37 @@ article {
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
+}
+
+figcaption {
+  font-size: 0.7em;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+.author {
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+a:link { color: #ffc125; } /* unvisited */
+a:visited { color: #cc9a1d; } /* visited */
+a:hover { color: #ffcd50; } /* mouse over */
+a:active { color: #ffc125; } /* selected */
+
+a {
+  text-decoration: none;
 }
